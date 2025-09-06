@@ -1,0 +1,16 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Erro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <h1>Opps...</h1>
+    <p>Parece que voce digitou algo errado, quer tenta novamente ?</p>
+    <ion-button [routerLink]="['/login']" id="open-toast">Sim</ion-button>
+    <ion-button [routerLink]="['/home']" id="open-toast">Não</ion-button>
+    
+  </div>
+  
+</ion-content>

@@ -1,0 +1,14 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Formadora Ⅰ </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="main-content">
+  <div class="container">
+    <h1 class="title" >Bem-vindo (a) </h1>
+    <p>Este trabalho apresenta um Cartão Digital de Identificação desenvolvido em Ionic, exibindo brevemente minhas informações em uma tela e um texto de apresentação.</p>
+  </div>
+  <ion-button [routerLink]="['/login']" id="open-toast">Vamos-Lá</ion-button>
+  <ion-toast trigger="open-toast" message="Você foi direcionado!" [duration]="3000" icon="globe"></ion-toast>
+</ion-content>
